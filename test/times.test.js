@@ -231,6 +231,33 @@ describe("Times de Futebol", () => {
         time.registrarVitoria(3,0);
         time.registrarVitoria(3,0);
         time.registrarVitoria(3,0);
+
+        //3. Assert
+        expect(time.classificacao()).toBe("Boa");
+    });
+
+    test("Classificação excelente", () => {
+        //2. Act
+        time.registrarVitoria(4,1);
+        time.registrarVitoria(4,1);
+        time.registrarVitoria(4,1);
+        time.registrarVitoria(4,1);
+        time.registrarVitoria(4,1);
+        time.registrarVitoria(4,1);
+        time.registrarVitoria(4,1);
+        time.registrarVitoria(4,1);
+        time.registrarVitoria(4,1);
+        time.registrarVitoria(4,1);
+        time.registrarVitoria(4,1);
+        time.registrarVitoria(4,1);
+        time.registrarVitoria(4,1);
+        time.registrarVitoria(3,0);
+        time.registrarVitoria(3,0);
+        time.registrarVitoria(3,0);
+        time.registrarVitoria(3,0);
+        time.registrarVitoria(3,0);
+        time.registrarVitoria(3,0);
+        time.registrarVitoria(3,0);
         time.registrarVitoria(3,0);
         time.registrarVitoria(3,0);
         time.registrarVitoria(3,0); 
